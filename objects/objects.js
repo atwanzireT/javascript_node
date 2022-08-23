@@ -29,3 +29,9 @@ movie.name = "2:22"
 movie.release = "2016"
 
 console.log(movie)
+
+// loops
+for (let x in student){
+    console.log("Printing Object using loop")
+    console.log(student[x])
+}
