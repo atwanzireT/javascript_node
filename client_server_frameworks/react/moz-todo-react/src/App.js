@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import Todo from './components/Todo';
+import Todo from './components/todo';
 
 function App(props) {
   return (
@@ -47,8 +47,7 @@ function App(props) {
         className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading"
       >
-        <Todo name = "eat"/>
-        
+      <Todo name = "eat"/>  
       </ul>
     </div>
   );
